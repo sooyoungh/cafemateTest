@@ -8,7 +8,9 @@ import { withRouter } from 'react-router-dom';
 import axios from 'axios';
 
 dotenv.config();
-const GOOGLE_KEY = process.env.REACT_APP_GOOGLE_KEY;
+//const GOOGLE_KEY = process.env.REACT_APP_GOOGLE_KEY;
+const GOOGLE_KEY = "618055402161-g2eb01kd2isu7un5arob3896g6jbn0g2.apps.googleusercontent.com";
+
 
 const { Title } = Typography;
 
